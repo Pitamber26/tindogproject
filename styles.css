@@ -1,0 +1,192 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+/* headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+/* navbar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* DOWNLOWD BUTTONS */
+
+.button-navigationbar {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.title-img {
+  width: 22%;
+  transform: rotate(26deg);
+  position: absolute;
+  right: 24%;
+}
+
+/* FEATURES */
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-col {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;*/
+
+  padding: 4.5%;
+}
+
+.ic {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.ic :hover {
+  color: #ff4c68;
+}
+
+/* .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* Testimonial */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 4%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+.price-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.card-header h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+.ct-h {
+  color: #fff;
+  padding: 2% 10%;
+}
+
+.action-sec button {
+  margin: 4% 3% 4% 0;
+}
+
+#footer {
+  padding: 4% 15%;
+}
+.fico {
+  margin: 20px 10px;
+  color: #000;
+}
+.para-content {
+  color: #8f8f8f;
+}
